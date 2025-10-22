@@ -3,7 +3,7 @@ import numpy as np
 import joblib  # or import pickle if you used pickle
 
 # Load your trained model
-model = joblib.load("logistic_regression_model.pkl")  # Replace with your model filename
+model = joblib.load("heart_disease_model.joblib")  # Replace with your model filename
 
 st.title("💓 Heart Disease Prediction ")
 
