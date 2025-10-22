@@ -81,51 +81,11 @@ To build a machine learning–based web application that predicts a person's hea
 | **Deployment** | Streamlit |
 | **Model Storage** | Pickle |
 
----
-
-## 🚀 How to Run Locally
-
-1. **Clone this repository:**
-   ```bash
-   git clone https://github.com/<your-username>/heart-disease-prediction.git
-   cd heart-disease-prediction
-   ```
-
-2. **Install the required libraries:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Streamlit app:**
-   ```bash
-   streamlit run app.py
-   ```
-
-4. **Open your browser at** `http://localhost:8501`
-
----
-
-## 🧠 Model File
-
-The trained model is saved as:
-```
-model.pkl
-```
-
-You can load it using:
-```python
-import pickle
-with open("model.pkl", "rb") as file:
-    model = pickle.load(file)
-```
-
----
-
 ## 🌍 Deployment
 
 This project is deployed on **Streamlit Cloud**. You can access the live app here:
 
-👉 **[Heart Disease Prediction App](#)**
+👉 **[Heart Disease Prediction App](https://heartfriendai.streamlit.app/)**
 
 ---
 
