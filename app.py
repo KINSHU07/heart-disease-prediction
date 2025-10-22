@@ -1,9 +1,11 @@
 import streamlit as st
 import numpy as np
+import pickle
 import joblib  # or import pickle if you used pickle
 
 # Load your trained model
-model = joblib.load("heart_disease_model.joblib")  # Replace with your model filename
+with open("model.pkl", "rb") as file:
+    model = pickle.load(file)  # Replace with your model filename
 
 st.title("💓 Heart Disease Prediction ")
 
